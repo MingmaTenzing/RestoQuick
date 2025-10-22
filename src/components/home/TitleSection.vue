@@ -2,8 +2,8 @@
 
 <template>
   <section class="relative">
-    <div class="flex flex-col md:items-center my-20 gap-6">
-      <h1 class="text-5xl md:text-8xl md:text-center">
+    <div class="flex flex-col md:items-center md:text-center my-20 gap-6">
+      <h1 class="text-5xl md:text-6xl lg:text-8xl md:text-center">
         Run your restaurant with the power of intelligence — not paperwork.
       </h1>
       <p class="text-secondary-foreground font-light">
@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <div class="drop-shadow-2xl drop-shadow-violet-300 dark:drop-shadow-violet-800">
+    <div class="drop-shadow-2xl drop-shadow-violet-200 dark:drop-shadow-violet-800">
       <img src="../../assets/TitleSection_Image.webp" class="w-full lg:h-[700px] object-cover" />
     </div>
   </section>

@@ -6,7 +6,7 @@ import BackgroundGrid from '@/components/ui/BackgroundGrid.vue'
 </script>
 
 <template>
-  <main class="gap-6">
+  <main class="space-y-10">
     <!-- gradient grid background -->
     <div class="lg:w-[1200px] m-auto p-4">
       <NavBar />

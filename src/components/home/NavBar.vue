@@ -11,8 +11,7 @@ const toggleTheme = useToggle(isdarkMode)
     <section class="flex justify-between items-center">
       <div class="flex gap-6 items-center">
         <div class="">
-          <img v-if="!isdarkMode" src="../../assets/RestroMate.png" class="" width="100" />
-          <img v-else src="../../assets/RestroMate.png" class="invert" width="100" />
+          <img src="../../assets/RestroMate.png" class="dark:invert" width="100" />
         </div>
         <div class="space-x-6 hidden md:flex">
           <RouterLink to=""> Enterprise</RouterLink>
