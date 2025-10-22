@@ -10,7 +10,10 @@ const toggleTheme = useToggle(isdarkMode)
   <header>
     <section class="flex justify-between items-center">
       <div class="flex gap-6 items-center">
-        <img src="../../assets/RestroMate.png" class="dark:invert" width="100" />
+        <div class="">
+          <img v-if="!isdarkMode" src="../../assets/RestroMate.png" class="" width="100" />
+          <img v-else src="../../assets/RestroMate.png" class="invert" width="100" />
+        </div>
         <div class="space-x-6 hidden md:flex">
           <RouterLink to=""> Enterprise</RouterLink>
           <RouterLink to=""> Pricing</RouterLink>
@@ -19,7 +22,7 @@ const toggleTheme = useToggle(isdarkMode)
 
       <div class="flex items-center gap-4">
         <div v-on:click="toggleTheme()">
-          <img src="../../components/icons/sun.svg" width="24" class="dark:invert" />
+          <i class="pi pi-moon"></i>
         </div>
         <button class="bg-violet-500 text-white px-4 py-2">View Dashboard</button>
       </div>
