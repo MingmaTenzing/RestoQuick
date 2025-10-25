@@ -2,7 +2,7 @@
 
 <template>
   <section
-    class="gap-4 md:gap-10 py-10 flex flex-wrap justify-evenly md:flex-nowrap md:justify-between md:flex-row"
+    class="gap-4 md:gap-10 my-10 flex flex-wrap justify-evenly md:flex-nowrap md:justify-between md:flex-row"
   >
     <div class="w-[150px] md:w-60 space-y-4">
       <div class="w-full h-[0.5px] bg-foreground/50"></div>

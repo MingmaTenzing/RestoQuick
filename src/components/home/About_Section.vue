@@ -61,10 +61,18 @@ const about_items = ref<accordionItems[]>([
       'Built for everyone—no tech skills required. RestroMate’s interface is clean, modern, and easy to use.',
   },
 ])
+
+
 </script>
 
 <template>
-  <div class="py-10 space-y-10">
+  <div class="my-10 space-y-10">
+
+    <section>
+
+
+    </section>
+
     <section class="space-y-6 lg:w-1/2">
       <h2 class="text-5xl md:text-6x">Modern and Powerful App that simplifies your work</h2>
       <p>
@@ -88,3 +96,5 @@ const about_items = ref<accordionItems[]>([
     </section>
   </div>
 </template>
+
+

@@ -41,7 +41,7 @@ const isFeatureHovered = ref(false)
 
 .v-enter-from,
 .v-leave-to {
-  transform: translateY(100%);
+  transform: translateY(20%);
   opacity: 0;
 }
 /* .v-enter-to,
