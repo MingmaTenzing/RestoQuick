@@ -2,9 +2,9 @@
 
 <template>
   <section
-    class="gap-4 md:gap-10 flex flex-wrap justify-evenly md:flex-nowrap md:justify-between md:flex-row"
+    class="gap-4 md:gap-10 py-10 flex flex-wrap justify-evenly md:flex-nowrap md:justify-between md:flex-row"
   >
-    <div class="w-[150px] md:w-[240px] space-y-4">
+    <div class="w-[150px] md:w-60 space-y-4">
       <div class="w-full h-[0.5px] bg-foreground/50"></div>
       <div class="flex items-center gap-2">
         <div class="px-2 py-2 flex justify-center items-center bg-green-600 rounded-lg">

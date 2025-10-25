@@ -7,7 +7,7 @@ import BackgroundGrid from '@/components/ui/BackgroundGrid.vue'
 </script>
 
 <template>
-  <main class="space-y-10">
+  <main class="">
     <section class="lg:w-[1200px] m-auto p-4">
       <NavBar />
     </section>
