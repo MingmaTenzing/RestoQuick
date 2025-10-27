@@ -2,7 +2,7 @@
 <template>
   <div class="my-10 space-y-6">
     <div class="lg:w-1/2">
-      <h2 class="text-lg lg:text-4xl  md:text-6xl">Trusted by 1000+ restaurants across Australia</h2>
+      <h2 class="text-4xl  md:text-6xl">Trusted by 1000+ restaurants across Australia</h2>
     </div>
 
     <section class=" flex space-x-4">
