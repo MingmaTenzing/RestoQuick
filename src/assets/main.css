@@ -1,4 +1,10 @@
 @import 'tailwindcss';
+@import 'tailwind-scrollbar-hide/v4';
+
+@import 'primeicons/primeicons.css';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
 
 :root {
   --background: oklch(1 0 0);
@@ -23,7 +29,7 @@
   --chart-2: oklch(0.6 0.11 184.15);
   --chart-3: oklch(0.4 0.07 227.18);
   --chart-4: oklch(0.83 0.17 81.03);
-  --chart-5: oklch(0.77 0.17 65.36);
+  --chart-5: oklch(27.063% 0.03674 75.612);
   --sidebar: oklch(0.99 0 0);
   --sidebar-foreground: oklch(0.14 0 0);
   --sidebar-primary: oklch(0.2 0 0);
@@ -145,4 +151,53 @@
   --shadow-lg: var(--shadow-lg);
   --shadow-xl: var(--shadow-xl);
   --shadow-2xl: var(--shadow-2xl);
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--reka-accordion-content-height);
+    }
+  }
+  @keyframes accordion-up {
+    from {
+      height: var(--reka-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
 }
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* @layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 20px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #f7f4ed;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #e0cbcb;
+    border-radius: 100vh;
+    border: 3px solid #f6f7ed;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #c0a0b9;
+  }
+} */
