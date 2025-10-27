@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import About_Section from '@/components/home/About_Section.vue'
-import Features from '@/components/home/Features.vue'
-import NavBar from '@/components/home/NavBar.vue'
-import TitleSection from '@/components/home/TitleSection.vue'
+import About_Section from '@/components/home_components/About_Section.vue'
+import Features from '@/components/home_components/Features.vue'
+import NavBar from '@/components/home_components/NavBar.vue'
+import TitleSection from '@/components/home_components/TitleSection.vue'
+import Trusted_By from '@/components/home_components/Trusted_By.vue'
 import BackgroundGrid from '@/components/ui/BackgroundGrid.vue'
 </script>
 
@@ -25,9 +26,15 @@ import BackgroundGrid from '@/components/ui/BackgroundGrid.vue'
       <Features />
     </section>
 
-    <section>
+    <section class="">
       <div class="lg:w-[1200px] m-auto p-4">
         <About_Section />
+      </div>
+    </section>
+
+    <section class="">
+      <div class="lg:w-[1200px] m-auto p-4">
+        <Trusted_By></Trusted_By>
       </div>
     </section>
   </main>

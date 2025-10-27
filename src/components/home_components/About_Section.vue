@@ -74,7 +74,7 @@ const about_items = ref<accordionItems[]>([
     </section>
 
     <section class="space-y-6 lg:w-1/2">
-      <h2 class="text-5xl md:text-6x">Modern and Powerful App that simplifies your work</h2>
+      <h2 class="text-4xl md:text-6xl">Modern and Powerful App that simplifies your work</h2>
       <p>
         Restro Mate helps you easily create roster, manage stocks and all the essential parts of
         restaurant easily.
